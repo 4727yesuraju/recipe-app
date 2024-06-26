@@ -36,6 +36,8 @@ const HomePage = () => {
 		fetchRecipes(e.target[0].value);
 	};
 
+	console.log(recipes);
+
 	return (
 		<div className='bg-[#faf9fb] p-10 flex-1'>
 			<div className='max-w-screen-lg mx-auto'>
